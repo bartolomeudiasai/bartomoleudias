@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bartolomeu — Build with AI, not just chat with it</title>
+    <meta
+      name="description"
+      content="Practical guides, systems, and tools for building AI agents that actually help with work, business, research, and admin."
+    />
+    <style>
+      :root {
+        --bg: #0b1020;
+        --panel: #111830;
+        --soft: #1a2342;
+        --text: #e8ecf8;
+        --muted: #b4bfdc;
+        --accent: #7c9cff;
+        --accent-2: #90f0d0;
+        --border: rgba(255,255,255,0.08);
+        --max: 1120px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #0a1020 0%, #0e1530 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      a { color: inherit; text-decoration: none; }
+      .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+      header {
+        position: sticky; top: 0; backdrop-filter: blur(10px);
+        background: rgba(10,16,32,0.72); border-bottom: 1px solid var(--border); z-index: 10;
+      }
+      nav {
+        display: flex; align-items: center; justify-content: space-between; padding: 16px 0;
+      }
+      .brand { font-weight: 800; letter-spacing: 0.02em; }
+      .nav-links { display: flex; gap: 20px; color: var(--muted); font-size: 14px; }
+      .btn {
+        display: inline-block; padding: 14px 20px; border-radius: 12px; font-weight: 700;
+        border: 1px solid var(--border); transition: 0.2s ease;
+      }
+      .btn.primary { background: var(--accent); color: white; border-color: transparent; }
+      .btn.secondary { background: transparent; color: var(--text); }
+      .hero { padding: 88px 0 64px; }
+      .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 32px; align-items: center; }
+      .eyebrow {
+        display: inline-block; padding: 8px 12px; border-radius: 999px; background: rgba(124,156,255,0.14);
+        color: #c9d5ff; font-size: 13px; font-weight: 700; margin-bottom: 20px;
+      }
+      h1 { font-size: clamp(2.5rem, 6vw, 4.75rem); line-height: 1.02; margin: 0 0 18px; }
+      .lead { font-size: 1.15rem; color: var(--muted); max-width: 720px; }
+      .cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
+      .hero-card, .card {
+        background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+        border: 1px solid var(--border); border-radius: 20px; padding: 24px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+      }
+      .hero-card h3 { margin-top: 0; }
+      .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+      .kpi { background: var(--soft); padding: 14px; border-radius: 14px; }
+      section { padding: 32px 0; }
+      .section-title { font-size: 2rem; margin: 0 0 10px; }
+      .section-sub { color: var(--muted); max-width: 760px; }
+      .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 24px; }
+      .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 24px; }
+      .card h3 { margin-top: 0; }
+      .muted { color: var(--muted); }
+      ul.clean { margin: 0; padding-left: 18px; }
+      .feature-list { display: grid; gap: 10px; margin-top: 18px; }
+      .feature-list div {
+        padding: 14px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+      }
+      .quote {
+        border-left: 3px solid var(--accent-2); padding-left: 16px; color: var(--muted); margin-top: 16px;
+      }
+      footer { padding: 48px 0 72px; color: var(--muted); }
+      .price { font-size: 2rem; font-weight: 800; margin: 8px 0; }
+      code.inline { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 6px; }
+      @media (max-width: 900px) {
+        .hero-grid, .grid-3, .grid-2, .kpis { grid-template-columns: 1fr; }
+        .nav-links { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <nav>
+          <div class="brand">Bartolomeu</div>
+          <div class="nav-links">
+            <a href="#product">Product</a>
+            <a href="#how">How it works</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <div class="eyebrow">bartomoleudias.co.za — launch in progress</div>
+            <h1>Build with AI, not just chat with it.</h1>
+            <p class="lead">
+              Practical guides, systems, and tools for building AI agents that actually help with work,
+              business, research, and admin.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#product">Get the playbook</a>
+              <a class="btn secondary" href="#how">See how it works</a>
+            </div>
+            <p class="quote">
+              No hype. No AI theatre. No vague productivity nonsense. Just a clear path from chatbot use to useful automation.
+            </p>
+          </div>
+          <div class="hero-card">
+            <h3>Featured product</h3>
+            <h2 style="margin: 0 0 8px;">Build Your First AI Agent</h2>
+            <p class="muted">
+              A practical playbook for people already using ChatGPT or Claude who are ready to build an AI system with memory, tools, guardrails, and a real job.
+            </p>
+            <div class="kpis">
+              <div class="kpi"><strong>12</strong><br /><span class="muted">chapters</span></div>
+              <div class="kpi"><strong>Practical</strong><br /><span class="muted">not academic</span></div>
+              <div class="kpi"><strong>South Africa</strong><br /><span class="muted">context-aware</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2 class="section-title">Most people use AI like a toy. That’s not the opportunity.</h2>
+          <p class="section-sub">
+            ChatGPT and Claude are useful, but asking good questions is only the beginning. The real edge comes when AI has instructions, memory, tools, and repeatable workflows.
+          </p>
+          <div class="grid-3">
+            <div class="card">
+              <h3>Chatbot stage</h3>
+              <p class="muted">Random prompts. One-off outputs. Useful, but fragile and forgetful.</p>
+            </div>
+            <div class="card">
+              <h3>Agent stage</h3>
+              <p class="muted">Persistent rules, stored context, practical tools, and a defined job.</p>
+            </div>
+            <div class="card">
+              <h3>Operator stage</h3>
+              <p class="muted">You stop consuming AI and start using it as leverage.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="product">
+        <div class="wrap grid-2">
+          <div>
+            <h2 class="section-title">Build Your First AI Agent</h2>
+            <p class="section-sub">
+              A practical playbook for going beyond ChatGPT and building an AI setup that actually helps with work, business, research, and admin.
+            </p>
+            <div class="feature-list">
+              <div>What an AI agent actually is — minus the marketing sludge</div>
+              <div>How to pick the right first use case</div>
+              <div>How memory, tools, and guardrails work together</div>
+              <div>How to design your agent’s role, job, and boundaries</div>
+              <div>How to build something useful instead of clever-looking nonsense</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="muted">Digital playbook</div>
+            <div class="price">R349</div>
+            <p class="muted">Instant download. Read tonight. Build this week.</p>
+            <div class="cta-row">
+              <a class="btn primary" href="#">Buy now</a>
+              <a class="btn secondary" href="#toc">View chapters</a>
+            </div>
+            <p class="muted" style="font-size: 14px; margin-top: 16px;">
+              Stripe checkout to be connected once live credentials are added.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how">
+        <div class="wrap">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-sub">Short version: stop fiddling, pick a useful job, give the AI structure, then test it in real life.</p>
+          <div class="grid-3">
+            <div class="card">
+              <h3>1. Pick a job</h3>
+              <p class="muted">Choose one recurring task worth improving — work, business, or life admin.</p>
+            </div>
+            <div class="card">
+              <h3>2. Design the agent</h3>
+              <p class="muted">Define role, memory, tools, outputs, and approval boundaries properly.</p>
+            </div>
+            <div class="card">
+              <h3>3. Make it useful</h3>
+              <p class="muted">Test it in the real world and turn it into a repeatable workflow.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="toc">
+        <div class="wrap">
+          <h2 class="section-title">What’s inside the playbook</h2>
+          <div class="grid-2">
+            <div class="card">
+              <h3>Core chapters</h3>
+              <ul class="clean muted">
+                <li>The Shift: from chatbot user to AI operator</li>
+                <li>What an AI agent actually is</li>
+                <li>Pick the right first job</li>
+                <li>Design the agent</li>
+                <li>Memory and context</li>
+                <li>Tools make it real</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Practical chapters</h3>
+              <ul class="clean muted">
+                <li>Guardrails and trust</li>
+                <li>Your first workflow</li>
+                <li>Real use cases to copy</li>
+                <li>South African reality check</li>
+                <li>Make it actually useful</li>
+                <li>What to do next</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap grid-2">
+          <div class="card">
+            <h3>Who this is for</h3>
+            <p class="muted">Founders, consultants, operators, side-hustlers, and smart adults who already use AI but know they’re barely scratching the surface.</p>
+          </div>
+          <div class="card">
+            <h3>Who this is not for</h3>
+            <p class="muted">People chasing passive-income fantasy sludge, overcomplicated coding rabbit holes, or another ebook they’ll download and ignore.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="wrap">
+          <h2 class="section-title">FAQ</h2>
+          <div class="grid-2">
+            <div class="card">
+              <h3>Do I need to code?</h3>
+              <p class="muted">No. This is designed for practical non-coders first.</p>
+            </div>
+            <div class="card">
+              <h3>Is this South Africa-specific?</h3>
+              <p class="muted">Yes, in tone, examples, and practical framing — because local reality matters.</p>
+            </div>
+            <div class="card">
+              <h3>Is the site live?</h3>
+              <p class="muted">The launch scaffold is ready. Deployment and DNS wiring happen as soon as Vercel access lands.</p>
+            </div>
+            <div class="card">
+              <h3>Why Bartolomeu?</h3>
+              <p class="muted">Because faceless generic AI brands are dull as hell, and memorable beats sterile.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="brand">Bartolomeu</div>
+        <p>Operate with leverage.</p>
+        <p>Planned domain: <code class="inline">bartomoleudias.co.za</code></p>
+      </div>
+    </footer>
+  </body>
+</html>
