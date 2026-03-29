@@ -1,368 +1,126 @@
-# Product Proposal: South African AI Agent Guide
+# Revised Product Proposal: Web-Based Guided AI Agent Builder
 
 Date: 2026-03-29
 
-## 1) Product Concept
+## Executive Summary
 
-### Core idea
-A practical PDF guide for South Africans aged 35-50 who already use ChatGPT or Claude, but want to move from "asking a chatbot questions" to building and running their own useful AI agent.
+The original PDF-only concept is too small.
 
-This should not read like crypto-bro sludge or Silicon Valley cosplay. It should feel grounded, local, practical, and slightly ambitious: "Here is how normal smart people in South Africa can set up an AI agent that actually does work."
+The stronger product is a **web-based guided build experience** for South Africans aged 35-50 who already use ChatGPT or Claude, but want to go beyond prompting and build an actual AI agent that helps with work, business, or life admin.
 
-### Target customer
-- South Africans aged 35-50
-- professionals, consultants, founders, operators, side-hustlers, and technically-curious managers
-- already familiar with ChatGPT or Claude
-- interested in productivity, income, automation, or future-proofing themselves
-- not necessarily coders
+The PDF should not be the main product.
+It should be a **companion resource**:
+- workbook
+- templates pack
+- quick-start cheatsheet
+- implementation summary
 
-### Core promise
+The core offer should be:
+
+# **Build your first AI agent through a practical guided experience.**
+
+This makes the product feel current, useful, and outcome-driven instead of static and beginner-ish.
+
+---
+
+## 1) New Web-Based Product Concept
+
+## Product type
+A structured web product that walks the buyer step-by-step through defining, designing, and setting up their first practical AI agent.
+
+Think of it as:
+- part interactive course
+- part guided workshop
+- part implementation wizard
+- part operating manual
+
+Not a fluffy course.
+Not a long ebook.
+Not a vague chatbot.
+A practical build path.
+
+## Core promise
 **Stop just chatting to AI. Build one that works for you.**
 
+## Who it is for
+- South Africans aged 35-50
+- already using ChatGPT or Claude
+- want more leverage, not more theory
+- not necessarily technical
+- interested in practical outcomes: time savings, admin relief, income support, or business leverage
+
+## What the buyer gets
+- a step-by-step guided web experience
+- short modules with actions at each step
+- templates and copy-paste starter files
+- worksheets that turn vague ideas into a real setup
+- a downloadable PDF/workbook companion
+- a final custom blueprint for their first AI agent
+
+## Transformation
+The buyer goes from:
+- "I use AI sometimes"
+
+to:
+- "I understand how to structure an AI agent and I have my first one designed and ready to run."
+
+## Why this beats a plain PDF
+- more engaging
+- higher perceived value
+- better completion rates
+- easier to market as a transformation
+- easier to upgrade later with templates, tools, community, coaching, or software
+
 ---
 
-## 2) Product Name + Domain Ideas
+## 2) New Product Name + Domain Name Options
 
 ## Recommended product name
-# **Your First AI Agent**
+# **Build Your First AI Agent**
 
-Why this works:
-- dead simple
-- clear outcome
-- low intimidation factor
-- sounds practical, not nerdy
-- easy to market to first-time buyers
+Why this is better than the original:
+- more active
+- outcome-focused
+- clear transformation
+- strong as both product name and headline
+- sounds like a guided implementation, not a book title
 
-## Subtitle
-**A practical South African guide to going beyond ChatGPT and building an AI assistant that actually gets work done.**
+## Recommended subtitle
+**A practical step-by-step workshop for South Africans ready to go beyond ChatGPT and build an AI agent that actually helps.**
 
 ## Recommended domain
-# **yourfirstaiagent.co.za**
+# **buildyourfirstaiagent.co.za**
 
-Why this is the best option:
-- strong product-message fit
-- local trust signal with `.co.za`
-- clear enough to remember
-- sounds like a guide, not a faceless software company
+Why:
+- directly aligned to the promise
+- clear and descriptive
+- likely easier to understand instantly than something abstract or brand-heavy
+- `.co.za` gives local trust and local relevance
 
-## Other strong options
-- **buildanaiagent.co.za**
-- **agentguide.co.za**
-- **myaiagent.co.za**
-- **fromchatgpttoagent.co.za**
+## Alternative product names
+- **Beyond ChatGPT**
+- **Your First AI Agent**
+- **AI Agent Workshop**
+- **Agent Builder South Africa**
+- **Practical AI Agent**
+
+## Alternative domains
+- **beyondchatgpt.co.za**
+- **yourfirstaiagent.co.za**
+- **aiaagentworkshop.co.za**
 - **practicalaiagent.co.za**
+- **buildanaiagent.co.za**
 
 ## My opinion
-Go with **Your First AI Agent** and try to secure **yourfirstaiagent.co.za**.
-It is clear, sellable, and doesn’t smell like a startup that raised money to automate disappointment.
+Use:
+- **Product:** Build Your First AI Agent
+- **Domain:** buildyourfirstaiagent.co.za
+
+It is clear, direct, and more sellable than something cute.
 
 ---
 
-## 3) Full Table of Contents + Chapter Outline
-
-# Working title
-# **Your First AI Agent**
-### *A practical South African guide to going beyond ChatGPT and building an AI assistant that actually gets work done*
-
----
-
-## Table of Contents
-
-### Introduction
-1. Why this guide exists
-2. The difference between using AI and owning an AI workflow
-3. Who this guide is for — and who it is not for
-4. What you will have by the end
-
-### Part 1: The Shift — From Chatbot User to Agent Builder
-5. ChatGPT is the calculator. An agent is the employee.
-6. What an AI agent actually is
-7. What AI agents can do today — realistically
-8. The biggest myths and scams to ignore
-9. Why this matters for South Africans right now
-
-### Part 2: Choosing the Right First Use Case
-10. Start with pain, not technology
-11. Personal use cases: life admin, research, reminders, planning
-12. Work use cases: lead research, summaries, follow-ups, monitoring
-13. Business use cases: content pipelines, sales support, inbox triage, reporting
-14. What makes a good first agent project
-15. The 30-minute test: if it saves time weekly, it qualifies
-
-### Part 3: The Building Blocks of an AI Agent
-16. Model: ChatGPT, Claude, and what the model actually does
-17. Instructions: the role, tone, goals, and rules
-18. Memory: what the agent should remember
-19. Tools: email, web search, files, calendar, messaging
-20. Triggers: how the agent wakes up and works
-21. Outputs: reports, drafts, alerts, summaries, actions
-22. Guardrails: privacy, mistakes, and human approval
-
-### Part 4: Your First Agent, Step by Step
-23. Picking one useful outcome
-24. Writing the agent brief
-25. Defining its personality and operating rules
-26. Giving it memory that matters
-27. Connecting simple tools
-28. Creating a daily or weekly workflow
-29. Testing the agent with real tasks
-30. Fixing the first failures
-31. Knowing when the setup is "good enough"
-
-### Part 5: Real Examples You Can Copy
-32. The research assistant agent
-33. The inbox helper agent
-34. The sales support agent
-35. The family admin agent
-36. The side-hustle operator agent
-37. The founder’s weekly briefing agent
-
-### Part 6: South African Practicalities
-38. Costs in rand: what this actually costs to run
-39. Which tools are easiest to start with in South Africa
-40. Connectivity, devices, and local realities
-41. POPIA, privacy, and common-sense data handling
-42. What not to automate if it can bite you later
-
-### Part 7: How to Make It Useful Enough to Keep
-43. The difference between clever and useful
-44. Create routines, not demos
-45. Build trust through small wins
-46. When to keep the human in the loop
-47. How to decide what the agent may or may not do alone
-48. Measuring saved time, quality, and leverage
-
-### Part 8: Going Further
-49. Turning one agent into a system
-50. Adding more tools carefully
-51. Using agents for income, client service, and side businesses
-52. When to learn more technical tools
-53. What the next 12 months will probably look like
-
-### Conclusion
-54. Your next 7 days
-55. Your next 30 days
-56. The long game: becoming the person who uses AI properly
-
-### Bonus Resources
-57. Copy-and-paste agent brief template
-58. First workflow checklist
-59. Prompt patterns that actually help
-60. Tool stack recommendations
-61. Common mistakes and fixes
-
----
-
-## Detailed chapter outline
-
-## Introduction
-
-### 1. Why this guide exists
-Position the guide as the bridge between casual AI use and actual leverage. Speak to the reader who feels they are only scratching the surface.
-
-### 2. The difference between using AI and owning an AI workflow
-Explain that using ChatGPT occasionally is reactive; owning an AI workflow means repeatable systems that save time or make money.
-
-### 3. Who this guide is for — and who it is not for
-Ideal for practical adults who want results, not for hardcore ML researchers or people who just want magic without effort.
-
-### 4. What you will have by the end
-A clear plan, a first agent concept, a working design, and confidence to run or commission an agent.
-
-## Part 1: The Shift — From Chatbot User to Agent Builder
-
-### 5. ChatGPT is the calculator. An agent is the employee.
-Use a strong metaphor: chatbots answer questions; agents can carry standing instructions, use tools, remember context, and produce work.
-
-### 6. What an AI agent actually is
-Define it cleanly: instructions + memory + tools + triggers + outputs.
-
-### 7. What AI agents can do today — realistically
-Cover realistic capabilities: research, summarizing, monitoring, drafting, organizing, alerting.
-
-### 8. The biggest myths and scams to ignore
-Debunk hype: "fully autonomous business," "zero work passive income," and "replace your team overnight."
-
-### 9. Why this matters for South Africans right now
-Frame the local opportunity: lean teams, cost pressure, side hustles, uneven admin systems, and the advantage of smart automation.
-
-## Part 2: Choosing the Right First Use Case
-
-### 10. Start with pain, not technology
-Do not start with "I want an AI agent." Start with "What recurring task is annoying, expensive, or slow?"
-
-### 11. Personal use cases: life admin, research, reminders, planning
-Examples for normal adults, not just startup types.
-
-### 12. Work use cases: lead research, summaries, follow-ups, monitoring
-Show how office workers and consultants can use agents immediately.
-
-### 13. Business use cases: content pipelines, sales support, inbox triage, reporting
-Show revenue and leverage angles.
-
-### 14. What makes a good first agent project
-Clear inputs, recurring task, low risk, visible output, human review possible.
-
-### 15. The 30-minute test: if it saves time weekly, it qualifies
-A pragmatic framework for deciding whether a use case is worth building.
-
-## Part 3: The Building Blocks of an AI Agent
-
-### 16. Model: ChatGPT, Claude, and what the model actually does
-Explain models in plain English.
-
-### 17. Instructions: the role, tone, goals, and rules
-Show why a strong system brief matters more than prompt cleverness.
-
-### 18. Memory: what the agent should remember
-Cover short-term context vs long-term useful memory.
-
-### 19. Tools: email, web search, files, calendar, messaging
-Explain the practical power leap that happens when AI can actually do things.
-
-### 20. Triggers: how the agent wakes up and works
-Scheduled, manual, event-driven, or reactive triggers.
-
-### 21. Outputs: reports, drafts, alerts, summaries, actions
-Make the reader think in deliverables.
-
-### 22. Guardrails: privacy, mistakes, and human approval
-Critical chapter. Emphasize approval boundaries and common sense.
-
-## Part 4: Your First Agent, Step by Step
-
-### 23. Picking one useful outcome
-Choose one result, not ten.
-
-### 24. Writing the agent brief
-Provide a fill-in-the-blanks structure.
-
-### 25. Defining its personality and operating rules
-Friendly but disciplined. The tone should support reliability, not gimmicks.
-
-### 26. Giving it memory that matters
-Show what to save and what to ignore.
-
-### 27. Connecting simple tools
-Focus on the easiest high-value tools first.
-
-### 28. Creating a daily or weekly workflow
-Teach repeatability.
-
-### 29. Testing the agent with real tasks
-Avoid toy examples.
-
-### 30. Fixing the first failures
-Every first build is a bit stupid. That is normal.
-
-### 31. Knowing when the setup is "good enough"
-Teach iteration over perfectionism.
-
-## Part 5: Real Examples You Can Copy
-
-### 32. The research assistant agent
-Tracks topics, summarizes findings, and stores notes.
-
-### 33. The inbox helper agent
-Drafts responses, highlights urgency, and organizes follow-ups.
-
-### 34. The sales support agent
-Researches prospects and drafts outreach.
-
-### 35. The family admin agent
-Handles reminders, lists, bookings prep, and document organization.
-
-### 36. The side-hustle operator agent
-Monitors opportunities, drafts messages, and produces weekly action lists.
-
-### 37. The founder’s weekly briefing agent
-Gathers metrics, updates, and priorities into one report.
-
-## Part 6: South African Practicalities
-
-### 38. Costs in rand: what this actually costs to run
-Ground the guide in believable local economics.
-
-### 39. Which tools are easiest to start with in South Africa
-Recommend simple, accessible tools and approaches.
-
-### 40. Connectivity, devices, and local realities
-Load shedding, mobile-first behavior, bandwidth limits, practical constraints.
-
-### 41. POPIA, privacy, and common-sense data handling
-Not legal theatre — just clear practical boundaries.
-
-### 42. What not to automate if it can bite you later
-Financial decisions, legal claims, sensitive client communication, etc.
-
-## Part 7: How to Make It Useful Enough to Keep
-
-### 43. The difference between clever and useful
-A brilliant demo that no one uses is worthless.
-
-### 44. Create routines, not demos
-This is the chapter that turns interest into habit.
-
-### 45. Build trust through small wins
-Start with low-risk tasks and build confidence.
-
-### 46. When to keep the human in the loop
-Show the reader how not to be an idiot.
-
-### 47. How to decide what the agent may or may not do alone
-A simple permission framework.
-
-### 48. Measuring saved time, quality, and leverage
-How to know this is paying off.
-
-## Part 8: Going Further
-
-### 49. Turning one agent into a system
-Show how multiple small workflows beat one monster setup.
-
-### 50. Adding more tools carefully
-Complexity is seductive and usually stupid.
-
-### 51. Using agents for income, client service, and side businesses
-Direct monetization ideas.
-
-### 52. When to learn more technical tools
-A roadmap for the curious reader.
-
-### 53. What the next 12 months will probably look like
-A grounded near-future view.
-
-## Conclusion
-
-### 54. Your next 7 days
-A short action plan.
-
-### 55. Your next 30 days
-Momentum and iteration.
-
-### 56. The long game: becoming the person who uses AI properly
-Identity shift: from consumer to builder.
-
-## Bonus Resources
-
-### 57. Copy-and-paste agent brief template
-Immediate implementation aid.
-
-### 58. First workflow checklist
-To reduce overwhelm.
-
-### 59. Prompt patterns that actually help
-Focused, practical examples.
-
-### 60. Tool stack recommendations
-Beginner-friendly stack suggestions.
-
-### 61. Common mistakes and fixes
-A troubleshooting section people will actually use.
-
----
-
-## 4) Landing Page Copy
+## 3) New Landing Page Copy
 
 ## Hero Section
 
@@ -370,197 +128,496 @@ A troubleshooting section people will actually use.
 # Stop just chatting to AI. Build one that works for you.
 
 ### Subheadline
-A practical South African guide for people using ChatGPT or Claude who are ready to build their first real AI agent — for work, business, or everyday life.
+A practical guided workshop for South Africans who already use ChatGPT or Claude and are ready to build their first real AI agent — for work, business, or everyday life.
 
-### Call to action
-**Get the guide**
+### Primary CTA
+**Start building your agent**
 
-### Support line
-No coding degree required. No hype. No Silicon Valley nonsense. Just a clear step-by-step guide to building an AI assistant that actually does useful work.
+### Secondary support line
+No coding degree required. No hype. No Silicon Valley cosplay. Just a clear step-by-step way to build an AI assistant that actually does useful work.
 
 ---
 
 ## Problem Section
 
 ### Heading
-# You already use AI. But you’re still doing all the work.
+# You’re already using AI. But you’re still stuck at the chatbot stage.
 
 ### Copy
-If you’ve used ChatGPT or Claude, you already know AI is useful.
+You’ve used ChatGPT.
+Maybe Claude too.
+You know AI is useful.
 
-But there’s a big difference between:
-- asking AI random questions, and
-- setting up an AI agent that remembers context, follows instructions, uses tools, and helps you repeatedly.
+But there’s a gap between:
+- asking clever questions, and
+- building an AI setup that can actually help you repeatedly
 
-That’s where most people get stuck.
+That gap is where most people stall.
 
-They can feel the opportunity.
-They can see the future coming.
-But they don’t know how to move from "this is interesting" to "this actually helps me every week."
+They can feel there’s more here.
+They know the people who learn this properly will have an edge.
+But they don’t know how to go from experimentation to something practical and repeatable.
 
-This guide closes that gap.
+That’s what this product solves.
 
 ---
 
-## What This Guide Helps You Do
+## What This Product Is
 
 ### Heading
-# What you’ll learn
+# This is not just a PDF. It’s a guided build experience.
+
+### Copy
+Instead of dumping a static ebook on you and wishing you luck, **Build Your First AI Agent** walks you through the process step by step.
+
+You’ll move through short focused modules that help you:
+- choose the right first use case
+- understand how AI agents actually work
+- define your agent’s role, rules, memory, and tools
+- avoid the usual mistakes and overcomplicated nonsense
+- leave with a practical blueprint for your first AI agent
+
+You’ll also get a downloadable workbook, templates, and a summary guide — but the core value is the guided implementation experience.
+
+---
+
+## Benefits Section
+
+### Heading
+# What you’ll walk away with
 
 ### Bullets
-- understand what an AI agent actually is
-- choose the right first use case for your life or business
-- design an agent with instructions, memory, tools, and guardrails
-- avoid the usual hype, scams, and pointless complexity
-- build a practical workflow you can actually use
-- think clearly about privacy, cost, and real-world South African constraints
+- a clear understanding of what an AI agent is and is not
+- a practical use case for your life, work, or business
+- a structured blueprint for your first agent
+- copy-paste templates to help you get started faster
+- confidence to build something useful instead of fiddling forever
+- a better mental model for how to use AI as leverage, not entertainment
 
 ---
 
 ## Who It’s For
 
 ### Heading
-# This guide is for you if...
+# This is for you if...
 
 ### Bullets
-- you use ChatGPT or Claude already
+- you already use ChatGPT or Claude
 - you know there’s more to AI than prompting
 - you want to save time, reduce admin, or create leverage
-- you’re curious about building something practical, not just playing with demos
-- you want a guide that explains this in normal English
+- you are curious about building a useful AI system without becoming a software engineer
+- you want practical guidance in plain English
+- you want examples that make sense in a South African context
 
-### Counter-positioning
+### Not for section
 This is **not** for people looking for:
-- magic passive income fantasies
-- overcomplicated coding tutorials
-- 300 pages of theory and buzzwords
+- AI hype and passive income fantasies
+- 50 tabs of theory and jargon
+- overcomplicated coding rabbit holes
+- another ebook that gets downloaded and ignored
 
 ---
 
-## What’s Inside
+## How It Works
 
 ### Heading
-# Inside the guide
+# How the guided build works
+
+### Step 1
+**Choose your first use case**
+Identify one real problem worth solving — in work, business, or personal admin.
+
+### Step 2
+**Design your agent properly**
+Define its role, instructions, memory, tools, triggers, and boundaries.
+
+### Step 3
+**Build your blueprint**
+Use guided prompts and templates to create a practical setup you can actually use.
+
+### Step 4
+**Leave with a real plan**
+By the end, you’ll have a concrete first-agent design instead of vague notes and AI-induced optimism.
+
+---
+
+## Product Contents Section
+
+### Heading
+# What’s included
+
+### Bullets
+- guided step-by-step web workshop
+- implementation modules with short lessons and action steps
+- agent design worksheets
+- copy-paste templates and starter files
+- downloadable PDF workbook / companion guide
+- practical examples for business, work, and home admin use cases
+- South African cost, privacy, and reality checks
+
+---
+
+## Positioning Section
+
+### Heading
+# Built for practical adults, not terminally-online AI maniacs
 
 ### Copy
-You’ll get a practical PDF guide that walks you through:
-- the mindset shift from chatbot user to agent builder
-- the building blocks of an AI agent
-- step-by-step setup for your first useful agent
-- copyable examples and use cases
-- South African cost, privacy, and practicality considerations
-- next steps for turning one useful setup into a real advantage
+This product is for smart, capable people who want to use AI properly.
+
+Not as a party trick.
+Not as a toy.
+Not as an excuse to post threads about the future of work.
+
+It is built for people with jobs, businesses, families, responsibilities, and very little patience for jargon.
+
+If you want a clear way to move from AI curiosity to actual implementation, this is for you.
 
 ---
 
 ## Outcome Section
 
 ### Heading
-# By the end, you’ll have more than ideas
+# By the end, you won’t just “know more about AI”
 
 ### Copy
 You’ll have:
-- a clear understanding of how AI agents work
-- a shortlist of useful use cases for your own life or business
-- a blueprint for your first agent
-- practical confidence to build, test, and improve it
+- a stronger understanding of how AI agents work
+- a clear first project to pursue
+- a usable blueprint for your first agent
+- a practical next step you can implement immediately
 
-In plain English: you stop being a spectator.
+That’s the difference between learning and building.
 
 ---
 
-## Credibility / Tone Section
+## CTA Section
 
 ### Heading
-# Built for practical adults, not terminally-online tech bros
+# Build your first AI agent
 
 ### Copy
-This guide is designed for smart, capable South Africans who want to use AI properly — without getting buried under jargon, hype, or nonsense.
-
-It is practical.
-It is clear.
-It is ambitious enough to matter.
-And it respects the fact that you have a life, a job, responsibilities, and better things to do than chase every shiny AI toy on the internet.
-
----
-
-## Offer Section
-
-### Heading
-# Get **Your First AI Agent**
-
-### Offer copy
 If you’re already using ChatGPT or Claude, this is the next step.
 
-Learn how to build an AI assistant that actually helps with work, business, research, admin, and opportunity hunting.
+Move beyond prompting.
+Build something useful.
+Create leverage.
 
-### CTA
-**Buy the guide**
+### CTA Button
+**Get started**
 
-### Optional support line
-Instant PDF download. Read it tonight. Start building this week.
+### Support line
+Read less. Build more.
 
 ---
 
 ## FAQ
 
 ### Is this for beginners?
-Yes. If you already use ChatGPT or Claude, you’re qualified.
+Yes — if you already use ChatGPT or Claude, you’re ready.
 
 ### Do I need to code?
-No. This guide is designed for practical non-coders first.
+No. The product is designed for practical non-coders first.
 
-### Is this only for business owners?
-No. It is useful for professionals, consultants, side-hustlers, and curious operators too.
+### Is this South Africa-specific?
+Yes, in tone, examples, and practical framing.
 
-### Is this specific to South Africa?
-Yes, in tone, examples, and practical framing. Not because South Africans are special unicorns, but because local reality matters.
+### Is it a course?
+Not in the bloated sense. It is better thought of as a guided build experience.
 
-### Is this hypey nonsense?
-God no. That is the whole point.
+### Do I get a PDF?
+Yes — but the PDF is the companion, not the whole product.
 
----
-
-## 5) Positioning Notes
-
-### Core positioning statement
-**A no-nonsense South African guide to building your first AI agent after ChatGPT.**
-
-### Emotional angle
-The buyer wants to feel:
-- ahead, not left behind
-- capable, not confused
-- practical, not gullible
-- early, but not reckless
-
-### Why this offer is strong
-This target market is old enough to have money, urgency, and professional pressure — but young enough to still adapt fast. They don’t want to become AI engineers. They want leverage.
-
-That is exactly what this PDF should sell.
+### Will I finish with something useful?
+That is the point. If the product does not help you design a real agent, it has failed.
 
 ---
 
-## 6) Recommended next steps
+## 4) Module-by-Module Guided Experience Structure
 
-1. Validate the domain availability for `yourfirstaiagent.co.za`
-2. Decide final tone: more premium, more conversational, or more hard-nosed
-3. Draft the actual PDF chapter-by-chapter
-4. Add a bonus worksheet or setup template to increase perceived value
-5. Test pricing with a preorder landing page
+The product should feel like a guided implementation path, not a library.
+Each module should be short, practical, and action-oriented.
+
+# Suggested structure
+
+## Module 1: The Shift
+### Goal
+Help the buyer understand the difference between using AI casually and building an AI agent that can do repeatable work.
+
+### Covers
+- what an AI agent is
+- what it can do today
+- what it cannot do
+- the myths to ignore
+- why this matters now
+
+### Output
+A simple written statement: "What do I want my first AI agent to help me do?"
 
 ---
 
-## Final recommendation
+## Module 2: Pick the Right First Use Case
+### Goal
+Stop people from building something impressive and useless.
 
-If you want the cleanest marketable angle tonight, use this:
+### Covers
+- good first use cases
+- bad first use cases
+- work, business, and personal examples
+- choosing based on recurring pain
+- the low-risk / high-value sweet spot
 
-### Product
-**Your First AI Agent**
+### Output
+A selected first use case with success criteria.
 
-### Domain
-**yourfirstaiagent.co.za**
+Example output:
+- "I want an agent that monitors leads in my niche and drafts a weekly summary."
 
-### Promise
+---
+
+## Module 3: Design the Agent
+### Goal
+Help the buyer define the agent properly.
+
+### Covers
+- role and identity
+- instructions and rules
+- memory
+- tools
+- triggers
+- outputs
+- boundaries and approvals
+
+### Output
+A first-pass agent specification.
+
+Example output:
+- role
+- tasks
+- allowed actions
+- forbidden actions
+- inputs
+- outputs
+- review points
+
+---
+
+## Module 4: Give It a Job
+### Goal
+Turn the abstract idea into a practical workflow.
+
+### Covers
+- what happens daily, weekly, or on request
+- where inputs come from
+- what the agent should produce
+- where the human steps in
+- how to avoid chaos
+
+### Output
+A simple workflow map.
+
+Example:
+1. search for new opportunities
+2. filter by relevance
+3. save findings
+4. draft summary
+5. ask for approval before sending
+
+---
+
+## Module 5: Memory, Tools, and Guardrails
+### Goal
+Teach the buyer the difference between a toy and a trustworthy setup.
+
+### Covers
+- what memory is useful
+- what should never be stored casually
+- how tools expand capability
+- where approval is needed
+- how to prevent expensive stupidity
+
+### Output
+A memory and permissions plan.
+
+---
+
+## Module 6: Build the Starter Blueprint
+### Goal
+Help the buyer assemble all decisions into a usable first blueprint.
+
+### Covers
+- combine role + use case + rules + workflow
+- copy-paste templates
+- first operating instructions
+- beginner-friendly setup structure
+
+### Output
+A downloadable first-agent blueprint.
+
+This could be presented as:
+- a text file
+- a worksheet
+- a starter config
+- a “handoff doc” to use with an agent platform later
+
+---
+
+## Module 7: Test It in Real Life
+### Goal
+Prevent the classic problem: everything sounds good until real life punches it in the throat.
+
+### Covers
+- how to test with one real task
+- what to look for when it fails
+- common early mistakes
+- tightening instructions
+- simplifying scope
+
+### Output
+A tested first version and a short revision list.
+
+---
+
+## Module 8: Make It Actually Useful
+### Goal
+Move the buyer from novelty to ongoing value.
+
+### Covers
+- creating routines
+- measuring time saved
+- deciding what to automate next
+- keeping the human in the loop
+- knowing when a setup is “good enough”
+
+### Output
+A 7-day and 30-day implementation plan.
+
+---
+
+## Optional Bonus Modules
+
+### Bonus 1: AI Agents for Business
+Use cases for sales, research, reporting, admin, and customer communication.
+
+### Bonus 2: AI Agents for Personal Life
+Use cases for family admin, planning, reminders, document organization, and logistics.
+
+### Bonus 3: South African Reality Check
+Local cost framing, tool choice, connectivity realities, and privacy common sense.
+
+### Bonus 4: Monetising What You Learn
+How to use this capability for consulting, services, or side income.
+
+---
+
+## Suggested Product Assets
+
+To make the offer feel substantial, bundle the web experience with useful assets.
+
+## Core assets
+- guided web modules
+- worksheets at the end of each module
+- downloadable workbook PDF
+- copy-paste agent design template
+- first-agent checklist
+- common mistakes guide
+
+## Higher perceived value add-ons
+- sample agent blueprints
+- business use case pack
+- personal admin use case pack
+- “choose your first agent” questionnaire
+- final generated summary page: "Your agent setup"
+
+---
+
+## Product UX Recommendation
+
+The experience should feel lightweight and progressive.
+Not like a university LMS from hell.
+
+## Ideal UX
+- one clear step at a time
+- short pages
+- clean typography
+- progress indicator
+- occasional input boxes / worksheets
+- downloadable outputs at the end
+- mobile-friendly, because South Africans absolutely will open this on their phones in bed
+
+## Tone
+- practical
+- direct
+- ambitious
+- anti-hype
+- reassuring without being patronising
+
+---
+
+## Positioning Strategy
+
+## Market angle
+This is not for:
+- hardcore engineers
+- AI researchers
+- people who want to build frontier models
+
+This is for:
+- practical adults who want leverage
+- business owners and professionals
+- curious people who know basic AI use is not enough anymore
+
+## Core positioning statement
+**A practical guided workshop for South Africans ready to build their first useful AI agent.**
+
+## Emotional promise
+The buyer should feel:
+- capable
+- ahead of the curve
+- less confused
+- less intimidated
+- more powerful
+
+---
+
+## Suggested Pricing Direction
+
+Because this is now a guided product rather than a plain PDF, the perceived value is higher.
+
+## Possible pricing
+- Entry offer: R249-R499
+- Stronger positioned version: R690-R990
+- Premium with bonuses/templates: R1,290+
+
+My instinct:
+Start around **R349-R490** if you want low friction and fast validation.
+Then raise once the product looks polished and has stronger proof.
+
+---
+
+## Recommended next steps
+
+1. Validate domain availability for `buildyourfirstaiagent.co.za`
+2. Decide whether the brand should stay descriptive or become more ownable later
+3. Design the actual lesson flow page by page
+4. Write the workbook and templates that support the experience
+5. Build a preorder landing page and test price sensitivity
+6. Add a simple final output generator later if needed
+
+---
+
+## Final Recommendation
+
+## Product
+**Build Your First AI Agent**
+
+## Domain
+**buildyourfirstaiagent.co.za**
+
+## Positioning
+**A practical guided workshop for South Africans ready to go beyond ChatGPT and build an AI agent that actually helps.**
+
+## Core message
 **Stop just chatting to AI. Build one that works for you.**
 
-That’s simple, strong, and sellable.
+That is sharper, more modern, and more commercially serious than a plain PDF.
