@@ -13,4 +13,4 @@ This is a static landing page scaffold prepared for deployment to Vercel.
 4. Add analytics / email capture if needed
 
 ## Current intended domain
-- `bartomoleudias.co.za`
+- `bartolomeudias.co.za`
