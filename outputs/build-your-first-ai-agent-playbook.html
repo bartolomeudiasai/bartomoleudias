@@ -1,0 +1,801 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Build Your First AI Agent</title><style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;max-width:820px;margin:48px auto;padding:0 24px;line-height:1.6;color:#111}h1,h2,h3,h4{line-height:1.25}h1{font-size:34px}h2{font-size:26px;margin-top:36px}h3{font-size:20px;margin-top:24px}h4{font-size:16px;margin-top:18px}p{margin:10px 0}ul,ol{margin:8px 0 12px 24px}hr{margin:28px 0;border:none;border-top:1px solid #ddd}</style></head><body>
+<h1>Build Your First AI Agent</h1>
+
+<h2>Subtitle</h2>
+<p>A practical playbook for going beyond ChatGPT and building an AI system that actually helps.</p>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>AI is full of two kinds of nonsense.</p>
+
+<p>The first says chatbots are enough.</p>
+<p>The second says fully autonomous magic is already here.</p>
+
+<p>Both are wrong.</p>
+
+<p>The useful middle ground is this: you can already build an AI agent that does meaningful work for you — if you design it properly.</p>
+
+<p>That means giving it:</p>
+<p>• a role</p>
+<p>• a job</p>
+<p>• memory</p>
+<p>• tools</p>
+<p>• boundaries</p>
+<p>• a repeatable workflow</p>
+
+<p>That is what this playbook is about.</p>
+
+<p>Not hype.</p>
+<p>Not fantasy.</p>
+<p>Not another bundle of prompts you’ll never use again.</p>
+
+<p>This is a practical guide to building an AI setup that helps you think better, move faster, and operate with more leverage.</p>
+
+<hr>
+
+<h2>Chapter 1: The Shift — From Chatbot User to AI Operator</h2>
+
+<p>Using ChatGPT or Claude is a good start. But it is still reactive. You ask, it answers, then the interaction disappears into the void.</p>
+
+<p>That is useful, but limited.</p>
+
+<p>An AI agent is different. It carries standing instructions. It can hold onto useful context. It can use tools. It can take recurring inputs and produce recurring outputs. It can be shaped into something that behaves less like a clever search box and more like a junior operator.</p>
+
+<p>That is the shift.</p>
+
+<p>The average person still uses AI like a calculator. Useful, but shallow.</p>
+<p>The advantage starts when you treat it more like an employee: define the job, set the boundaries, give it the tools, and review the results.</p>
+
+<p>This doesn’t mean full autonomy or magic. It means structure.</p>
+<p>And structure is where the value appears.</p>
+
+<h3>What changes when you become an operator</h3>
+
+<p>When you operate with AI instead of merely chatting to it, four things change.</p>
+
+<p>First, you stop judging AI by whether a single answer sounds clever and start judging it by whether it improves a workflow.</p>
+
+<p>Second, you stop asking vague questions and start defining repeatable jobs.</p>
+
+<p>Third, you stop thinking in prompts and start thinking in systems: memory, tools, approvals, routines, and outputs.</p>
+
+<p>Fourth, you stop chasing novelty and start building leverage.</p>
+
+<p>That last one matters most. Most people still use AI as entertainment with better branding. The people who win will use it to reduce friction, compress time, and multiply their output.</p>
+
+<h3>Key idea</h3>
+<p>A chatbot gives answers.</p>
+<p>An agent can support workflows.</p>
+
+<h3>Reflection prompt</h3>
+<p>What is one recurring task in your life or work that annoys you every week?</p>
+
+<hr>
+
+<h2>Chapter 2: What an AI Agent Actually Is</h2>
+
+<p>A lot of people use the phrase “AI agent” to mean anything from a prompt template to a self-driving business. Most of that is marketing rubbish.</p>
+
+<p>Here’s the cleaner definition:</p>
+
+<p>An AI agent is a model wrapped in instructions, memory, tools, triggers, and outputs.</p>
+
+<h3>The six core parts</h3>
+
+<h4>1. Role</h4>
+<p>Who is this agent supposed to be?</p>
+<p>Examples:</p>
+<p>• research assistant</p>
+<p>• sales support assistant</p>
+<p>• family admin helper</p>
+<p>• founder ops assistant</p>
+
+<h4>2. Instructions</h4>
+<p>What should it do, how should it behave, and what rules should it follow?</p>
+
+<h4>3. Memory</h4>
+<p>What should it remember between interactions?</p>
+
+<h4>4. Tools</h4>
+<p>Can it search the web, read files, write notes, draft emails, check a calendar, or send alerts?</p>
+
+<h4>5. Triggers</h4>
+<p>When does it wake up?</p>
+<p>• on command</p>
+<p>• on a schedule</p>
+<p>• when something happens</p>
+
+<h4>6. Outputs</h4>
+<p>What does it produce?</p>
+<p>• summaries</p>
+<p>• reports</p>
+<p>• drafts</p>
+<p>• alerts</p>
+<p>• recommendations</p>
+
+<p>Once you understand these pieces, the whole topic gets less mystical and much more useful.</p>
+
+<h3>A practical mental model</h3>
+
+<p>Think of an agent as a junior operator with a very strange personality profile.</p>
+
+<p>It is fast.</p>
+<p>It never gets bored.</p>
+<p>It can read a lot.</p>
+<p>It can follow structure.</p>
+<p>It can also misunderstand things spectacularly if you brief it badly.</p>
+
+<p>That means your job is not to worship the model. Your job is to design the operating environment around it.</p>
+
+<p>A good agent is rarely the result of one genius prompt. It is usually the result of clear scope, the right tools, remembered context, and sensible boundaries.</p>
+
+<h3>The mistake to avoid</h3>
+
+<p>Do not treat “agent” as a magic label.</p>
+<p>If it has no memory, no tools, no workflow, and no boundaries, it is just a chatbot wearing a fake moustache.</p>
+
+<hr>
+
+<h2>Chapter 3: Pick the Right First Job</h2>
+
+<p>Most first-time builders make the same mistake: they try to create something impressive instead of something useful.</p>
+
+<p>Don’t build a genius. Build a helper.</p>
+
+<p>Your first project should have:</p>
+<p>• a recurring task</p>
+<p>• clear inputs</p>
+<p>• visible outputs</p>
+<p>• low downside if it goes wrong</p>
+<p>• easy human review</p>
+
+<h3>Good first jobs</h3>
+<p>• summarising industry news</p>
+<p>• monitoring opportunities</p>
+<p>• drafting follow-up emails</p>
+<p>• organising research notes</p>
+<p>• preparing a weekly founder briefing</p>
+<p>• collecting admin tasks into one daily digest</p>
+
+<h3>Bad first jobs</h3>
+<p>• anything legal, financial, or medical without oversight</p>
+<p>• high-stakes client communication with no review</p>
+<p>• overly broad “run my business” fantasies</p>
+<p>• complicated multi-step systems you can’t debug</p>
+
+<h3>The 30-minute rule</h3>
+<p>If this could save you 30 minutes a week, every week, it is worth considering.</p>
+
+<p>That sounds small. It isn’t.</p>
+<p>Thirty minutes every week becomes leverage. Several of those workflows become an unfair advantage.</p>
+
+<h3>What makes a first use case strong</h3>
+
+<p>The best first use case is usually boring.</p>
+<p>That is not a bug. That is the entire point.</p>
+
+<p>Good first agents live in places where the work is:</p>
+<p>• repetitive</p>
+<p>• annoying</p>
+<p>• rules-based enough to structure</p>
+<p>• valuable enough to matter</p>
+<p>• low-risk enough to test safely</p>
+
+<p>That is why “summarise these updates every morning” is better than “manage my company.”</p>
+
+<h3>A simple selection filter</h3>
+
+<p>Before committing to a first use case, ask:</p>
+<p>1. Does this happen regularly?</p>
+<p>2. Can I describe the input clearly?</p>
+<p>3. Can I define the output clearly?</p>
+<p>4. Can I review the result quickly?</p>
+<p>5. Is the downside manageable if it gets something wrong?</p>
+
+<p>If you cannot answer yes to most of those, your first idea is probably too vague or too ambitious.</p>
+
+<hr>
+
+<h2>Chapter 4: Design the Agent</h2>
+
+<p>Now give the agent a proper job description.</p>
+
+<p>A weak brief creates a weak assistant.</p>
+<p>A clear brief creates useful behaviour.</p>
+
+<h3>Basic agent brief template</h3>
+
+<p>**Name:**</p>
+
+<p>**Role:**</p>
+<p>What job does this agent do?</p>
+
+<p>**Primary tasks:**</p>
+<p>What is it responsible for?</p>
+
+<p>**Inputs:**</p>
+<p>What information does it use?</p>
+
+<p>**Outputs:**</p>
+<p>What should it produce?</p>
+
+<p>**Tools available:**</p>
+<p>What can it use?</p>
+
+<p>**Rules:**</p>
+<p>What must it always do?</p>
+<p>What must it never do?</p>
+
+<p>**Approval boundaries:**</p>
+<p>What requires human sign-off?</p>
+
+<p>**Tone:**</p>
+<p>How should it communicate?</p>
+
+<p>This may sound simple. Good. Simple is underrated. Most AI setups fail because nobody defined the job properly.</p>
+
+<h3>Identity matters more than people think</h3>
+
+<p>A useful agent does not need a cute persona, but it does need a clear operating identity.</p>
+
+<p>Should it be:</p>
+<p>• concise or explanatory?</p>
+<p>• conservative or proactive?</p>
+<p>• formal or conversational?</p>
+<p>• focused on suggestions or on execution?</p>
+
+<p>These choices influence output quality because they shape how the agent interprets its role.</p>
+
+<h3>Success criteria</h3>
+
+<p>Define what “good” looks like.</p>
+
+<p>Bad success criteria:</p>
+<p>• “be smart”</p>
+<p>• “be helpful”</p>
+<p>• “run my workflow well”</p>
+
+<p>Better success criteria:</p>
+<p>• summarises incoming research clearly in under 300 words</p>
+<p>• flags only the top 3 opportunities worth attention</p>
+<p>• never sends external messages without approval</p>
+<p>• produces a weekly report every Friday before 4pm</p>
+
+<p>The clearer the target, the better the agent behaves.</p>
+
+<hr>
+
+<h2>Chapter 5: Memory and Context</h2>
+
+<p>Without memory, AI is stuck living in a permanent goldfish bowl.</p>
+
+<p>Memory is what turns repeated interactions into accumulated usefulness.</p>
+
+<h3>What memory is for</h3>
+<p>Memory helps the agent retain:</p>
+<p>• preferences</p>
+<p>• project context</p>
+<p>• recurring workflows</p>
+<p>• long-term goals</p>
+<p>• previous decisions</p>
+
+<h3>What to store</h3>
+<p>Store information that helps future work.</p>
+<p>Examples:</p>
+<p>• preferred tone</p>
+<p>• business priorities</p>
+<p>• recurring deadlines</p>
+<p>• active projects</p>
+<p>• useful reference material</p>
+
+<h3>What not to store casually</h3>
+<p>Don’t dump sensitive material into memory just because you can.</p>
+<p>Be deliberate about:</p>
+<p>• passwords</p>
+<p>• banking details</p>
+<p>• legal material</p>
+<p>• deeply private information</p>
+<p>• anything the agent does not actually need</p>
+
+<h3>A practical rule</h3>
+<p>If storing it will improve future output, consider it.</p>
+<p>If it is just clutter or risk, leave it out.</p>
+
+<h3>Short-term vs long-term memory</h3>
+
+<p>It helps to think in two layers.</p>
+
+<p>**Short-term memory** is what matters for the current task or current week:</p>
+<p>• active project notes</p>
+<p>• current priorities</p>
+<p>• recent decisions</p>
+<p>• temporary context</p>
+
+<p>**Long-term memory** is what stays useful over time:</p>
+<p>• stable preferences</p>
+<p>• recurring responsibilities</p>
+<p>• standing rules</p>
+<p>• important business context</p>
+
+<p>If you throw everything into one pile, the agent gets noisy. Memory should be curated, not hoarded.</p>
+
+<h3>The memory quality rule</h3>
+
+<p>Good memory is selective.</p>
+<p>Bad memory is a junk drawer.</p>
+
+<p>If your agent keeps remembering useless fluff, it becomes less helpful, not more.</p>
+
+<hr>
+
+<h2>Chapter 6: Tools Make It Real</h2>
+
+<p>This is where AI stops being a parlour trick.</p>
+
+<p>When an agent can use tools, it can do more than generate text.</p>
+<p>It can interact with the world in small, useful ways.</p>
+
+<h3>High-value starter tools</h3>
+<p>• web search</p>
+<p>• file reading and writing</p>
+<p>• email drafting</p>
+<p>• calendar checks</p>
+<p>• messaging / alerts</p>
+
+<h3>Why tools matter more than fancy prompts</h3>
+<p>A brilliant prompt without tools still leaves you doing the actual work.</p>
+<p>A decent agent with the right tools can move information, organise outputs, and support real workflows.</p>
+
+<p>That is the whole game.</p>
+<p>Not “how poetic is your prompt.”</p>
+<p>“How much useful work can this setup actually support?”</p>
+
+<h3>Start with low-risk tools</h3>
+
+<p>The best first tools are usually read-heavy and output-light.</p>
+
+<p>Examples:</p>
+<p>• search for information</p>
+<p>• read documents</p>
+<p>• summarise updates</p>
+<p>• write notes to local files</p>
+<p>• prepare drafts for review</p>
+
+<p>These are powerful without being reckless.</p>
+
+<h3>Tool choice should follow the job</h3>
+
+<p>People love adding tools because it feels like progress.</p>
+<p>That can get stupid quickly.</p>
+
+<p>If the job is “prepare a weekly research brief,” the tool list is obvious:</p>
+<p>• search</p>
+<p>• read pages</p>
+<p>• store notes</p>
+<p>• compile the report</p>
+
+<p>You do not need payment actions, public posting tools, or infrastructure access for that.</p>
+
+<p>Tools should be added because they support the workflow, not because they exist.</p>
+
+<hr>
+
+<h2>Chapter 7: Guardrails and Trust</h2>
+
+<p>This chapter matters because AI is confident, fast, and occasionally full of nonsense.</p>
+<p>That is a dangerous mix if you give it too much freedom too quickly.</p>
+
+<h3>The trust ladder</h3>
+<p>Start here:</p>
+<p>1. read-only tasks</p>
+<p>2. drafting tasks</p>
+<p>3. suggested actions</p>
+<p>4. actions with approval</p>
+<p>5. selective autonomy in low-risk areas</p>
+
+<p>Do not start with “just run everything.”</p>
+<p>That is how people end up automating mistakes.</p>
+
+<h3>Things that should usually require approval</h3>
+<p>• sending external emails</p>
+<p>• publishing public content</p>
+<p>• making purchases</p>
+<p>• changing infrastructure</p>
+<p>• deleting data</p>
+<p>• anything customer-facing and consequential</p>
+
+<p>Trust should be earned.</p>
+<p>Not granted because a demo looked clever.</p>
+
+<h3>The trust ladder in practice</h3>
+
+<p>Here is the sane progression.</p>
+
+<p>**Level 1: Observe**</p>
+<p>The agent reads and reports.</p>
+
+<p>**Level 2: Draft**</p>
+<p>The agent prepares messages, summaries, or recommendations.</p>
+
+<p>**Level 3: Recommend actions**</p>
+<p>The agent suggests next steps, but does not execute them.</p>
+
+<p>**Level 4: Execute with approval**</p>
+<p>The agent can act, but only after you confirm.</p>
+
+<p>**Level 5: Limited autonomy**</p>
+<p>The agent can perform a narrow set of low-risk actions on its own.</p>
+
+<p>If you skip straight to level five, you are not being advanced. You are being careless.</p>
+
+<h3>Where people get into trouble</h3>
+
+<p>The biggest mistakes are boring:</p>
+<p>• granting action permissions too early</p>
+<p>• failing to define approval boundaries</p>
+<p>• storing sensitive information casually</p>
+<p>• treating confidence as correctness</p>
+<p>• confusing “it worked twice” with “it is reliable”</p>
+
+<p>Guardrails are not bureaucracy. They are how you stop your clever system from becoming an expensive idiot.</p>
+
+<hr>
+
+<h2>Chapter 8: Your First Workflow</h2>
+
+<p>A workflow is where the abstract pieces come together.</p>
+
+<p>Let’s say you want an agent that monitors your niche and sends you a weekly opportunity summary.</p>
+
+<h3>Workflow example</h3>
+<p>1. Search for new opportunities in a specific niche</p>
+<p>2. Filter results by relevance</p>
+<p>3. Save findings to a file</p>
+<p>4. Summarise the week’s best opportunities</p>
+<p>5. Draft an email or report</p>
+<p>6. Ask for approval before sending</p>
+
+<p>That’s already useful.</p>
+<p>No magic. No robotics. Just leverage.</p>
+
+<h3>Your test question</h3>
+<p>What exact input comes in?</p>
+<p>What exact output should come out?</p>
+<p>Where does the human review happen?</p>
+
+<p>If you can answer those three questions, you’re no longer hand-waving.</p>
+<p>You’re designing.</p>
+
+<h3>Workflow design checklist</h3>
+
+<p>A good workflow answers five things clearly:</p>
+<p>• what triggers the job</p>
+<p>• what information the agent receives</p>
+<p>• what steps it should take</p>
+<p>• what output it should create</p>
+<p>• where human oversight sits</p>
+
+<h3>A simple founder workflow example</h3>
+
+<p>Here is another practical example.</p>
+
+<p>**Job:** daily founder briefing</p>
+
+<p>**Trigger:** every morning at 7:30</p>
+
+<p>**Inputs:** recent notes, saved priorities, calendar, inbox summary, open tasks</p>
+
+<p>**Process:**</p>
+<p>1. review current priorities</p>
+<p>2. scan new inputs</p>
+<p>3. identify the most relevant actions</p>
+<p>4. produce a short briefing</p>
+
+<p>**Output:** a morning summary with top priorities, risks, and recommended next actions</p>
+
+<p>**Review point:** founder reads it before acting</p>
+
+<p>That is a real workflow. It is modest, but it compounds.</p>
+
+<hr>
+
+<h2>Chapter 9: Real Use Cases You Can Steal</h2>
+
+<h3>1. Research assistant</h3>
+<p>Tracks topics, stores notes, and produces short summaries.</p>
+
+<h3>2. Daily briefing agent</h3>
+<p>Pulls together updates, priorities, and action items.</p>
+
+<h3>3. Sales support assistant</h3>
+<p>Researches leads and drafts tailored outreach.</p>
+
+<h3>4. Family admin helper</h3>
+<p>Organises reminders, forms, bookings prep, and lists.</p>
+
+<h3>5. Side-hustle scout</h3>
+<p>Finds opportunities, tracks them, and keeps a weekly action list.</p>
+
+<h3>6. Founder ops assistant</h3>
+<p>Collects loose inputs across projects and turns them into a cleaner operating picture.</p>
+
+<p>You do not need the perfect idea.</p>
+<p>You need the first useful one.</p>
+
+<h3>More strong starter use cases</h3>
+
+<h4>Opportunity monitor</h4>
+<p>Tracks tenders, jobs, grants, leads, or market openings and delivers a shortlist worth attention.</p>
+
+<h4>Content prep assistant</h4>
+<p>Gathers source material, extracts key ideas, and drafts content outlines for review.</p>
+
+<h4>Meeting follow-up agent</h4>
+<p>Turns meeting notes into action items, summaries, and next-step reminders.</p>
+
+<h4>Personal document organiser</h4>
+<p>Helps classify, summarise, and retrieve important household or admin documents.</p>
+
+<h3>The pattern beneath all good use cases</h3>
+
+<p>Strong use cases usually involve:</p>
+<p>• repeated information gathering</p>
+<p>• filtering noise from signal</p>
+<p>• turning raw input into cleaner output</p>
+<p>• giving the human a faster starting point</p>
+
+<p>That is why these systems are so useful. They reduce friction where friction keeps recurring.</p>
+
+<hr>
+
+<h2>Chapter 10: South African Reality Check</h2>
+
+<p>If you are building from South Africa, practicality matters.</p>
+
+<h3>Cost</h3>
+<p>Think in rand, not Silicon Valley hand-waving.</p>
+<p>Your first setup should feel worth it financially.</p>
+
+<h3>Connectivity</h3>
+<p>Design for interruptions, mobile access, and imperfect bandwidth.</p>
+<p>A setup that only works on a perfect desktop day is fragile.</p>
+
+<h3>Privacy and common sense</h3>
+<p>POPIA matters. Client trust matters. Common sense matters.</p>
+<p>Use approval boundaries. Avoid pushing sensitive data around carelessly.</p>
+
+<h3>Why local framing matters</h3>
+<p>Because “just buy six tools and spend $500 a month” is advice for idiots or people with company cards.</p>
+<p>A good system should be lean first.</p>
+
+<h3>Lean beats fancy</h3>
+
+<p>South African builders often have an advantage here: we are used to constraints.</p>
+
+<p>Constraints force better questions:</p>
+<p>• what is the simplest useful setup?</p>
+<p>• what tool is worth paying for?</p>
+<p>• what process can run reliably on an ordinary day?</p>
+<p>• what actually saves enough time or money to justify itself?</p>
+
+<p>Those are good questions.</p>
+
+<h3>Practical local considerations</h3>
+
+<p>Think about:</p>
+<p>• exchange-rate pain when pricing global tools</p>
+<p>• mobile-first usage patterns</p>
+<p>• patchy connectivity</p>
+<p>• privacy expectations from clients</p>
+<p>• the reality that small teams need outcomes, not experiments</p>
+
+<p>The right first system is not the one that looks most impressive on X.</p>
+<p>It is the one that works in your real environment without becoming a monthly regret.</p>
+
+<hr>
+
+<h2>Chapter 11: Make It Actually Useful</h2>
+
+<p>A clever demo is worthless if it never becomes part of your routine.</p>
+
+<h3>How useful systems stick</h3>
+<p>• they solve a real recurring problem</p>
+<p>• they are easy to run</p>
+<p>• they save visible time</p>
+<p>• they are trusted enough to use regularly</p>
+
+<h3>Measure the right things</h3>
+<p>• time saved</p>
+<p>• fewer dropped balls</p>
+<p>• better summaries</p>
+<p>• faster follow-up</p>
+<p>• improved consistency</p>
+
+<h3>Avoid complexity addiction</h3>
+<p>The temptation is always to add more.</p>
+<p>More tools. More triggers. More flows. More cleverness.</p>
+
+<p>Usually, that makes things worse.</p>
+<p>Keep the scope tight until the system proves itself.</p>
+
+<h3>Signs your setup is genuinely working</h3>
+
+<p>You know the system is becoming useful when:</p>
+<p>• you reach for it without forcing yourself</p>
+<p>• it saves time in a repeatable way</p>
+<p>• its outputs are good enough to trust with review</p>
+<p>• you can explain clearly what it is for</p>
+<p>• it removes friction instead of adding ceremony</p>
+
+<h3>Signs you are drifting into nonsense</h3>
+
+<p>Be honest if any of these show up:</p>
+<p>• you keep tweaking prompts instead of using the system</p>
+<p>• you add features faster than value</p>
+<p>• you cannot describe the workflow in plain English</p>
+<p>• the setup feels clever but rarely helps</p>
+<p>• you are spending more time maintaining it than benefiting from it</p>
+
+<p>That is not innovation. That is procrastination dressed as architecture.</p>
+
+<hr>
+
+<h2>Chapter 12: What to Do Next</h2>
+
+<h3>In the next 7 days</h3>
+<p>• pick one job</p>
+<p>• write the brief</p>
+<p>• decide the tools</p>
+<p>• set approval boundaries</p>
+<p>• test one real workflow</p>
+
+<h3>In the next 30 days</h3>
+<p>• refine instructions</p>
+<p>• improve outputs</p>
+<p>• remove friction</p>
+<p>• save useful memory</p>
+<p>• decide what second workflow is worth adding</p>
+
+<h3>The long game</h3>
+<p>The people who benefit most from AI will not just be the people who know the models.</p>
+<p>They will be the people who know how to structure useful systems around them.</p>
+
+<p>That is the skill worth building.</p>
+
+<h3>Your next move</h3>
+
+<p>Do not close this playbook and start consuming another ten hours of AI content.</p>
+<p>That would be missing the point.</p>
+
+<p>Pick one workflow.</p>
+<p>Design one agent.</p>
+<p>Test one real job.</p>
+<p>Learn from reality.</p>
+<p>Then improve.</p>
+
+<p>Momentum beats speculation.</p>
+
+<hr>
+
+<h2>Bonus 1: Agent Brief Template</h2>
+
+<p>**Agent name:**</p>
+
+<p>**Role:**</p>
+
+<p>**Why this role exists:**</p>
+
+<p>**Primary tasks:**</p>
+
+<p>**Inputs it receives:**</p>
+
+<p>**Outputs it should produce:**</p>
+
+<p>**Tools it may use:**</p>
+
+<p>**Rules it must follow:**</p>
+
+<p>**Actions requiring approval:**</p>
+
+<p>**What success looks like:**</p>
+
+<hr>
+
+<h2>Bonus 2: First Use Case Worksheet</h2>
+
+<p>Answer these questions:</p>
+
+<p>1. What recurring problem do I want help with?</p>
+<p>2. How often does it happen?</p>
+<p>3. What usually triggers the task?</p>
+<p>4. What information goes in?</p>
+<p>5. What output would be genuinely useful?</p>
+<p>6. What could go wrong if the output is bad?</p>
+<p>7. Where should human review happen?</p>
+<p>8. What would make this feel worth it after 30 days?</p>
+
+<hr>
+
+<h2>Bonus 3: First Workflow Checklist</h2>
+
+<p>Before you build, make sure you can describe:</p>
+<p>• the job</p>
+<p>• the trigger</p>
+<p>• the input</p>
+<p>• the process</p>
+<p>• the output</p>
+<p>• the review point</p>
+<p>• the boundaries</p>
+<p>• the definition of success</p>
+
+<p>If you cannot describe those, you are not ready to automate anything.</p>
+
+<hr>
+
+<h2>Bonus 4: Trust Ladder Template</h2>
+
+<h3>Level 1 — Read only</h3>
+<p>The agent can inspect and report.</p>
+
+<h3>Level 2 — Draft only</h3>
+<p>The agent can prepare outputs for human review.</p>
+
+<h3>Level 3 — Suggest actions</h3>
+<p>The agent can recommend next steps.</p>
+
+<h3>Level 4 — Execute with approval</h3>
+<p>The agent can act after explicit confirmation.</p>
+
+<h3>Level 5 — Limited autonomy</h3>
+<p>The agent can perform narrow low-risk actions without asking every time.</p>
+
+<p>Move up one level at a time. Not because caution is boring, but because cleaning up stupid mistakes is more boring.</p>
+
+<hr>
+
+<h2>Bonus 5: Common Mistakes</h2>
+
+<p>• choosing a glamorous first project instead of a useful one</p>
+<p>• giving the agent vague instructions</p>
+<p>• storing too much useless memory</p>
+<p>• granting action permissions too early</p>
+<p>• skipping review on consequential tasks</p>
+<p>• adding tools that do not support the job</p>
+<p>• overcomplicating the workflow before proving value</p>
+<p>• mistaking novelty for usefulness</p>
+
+<hr>
+
+<h2>Bonus 6: Plain-English Glossary</h2>
+
+<p>**Agent:** an AI system with instructions, memory, tools, and a defined job.</p>
+
+<p>**Prompt:** the text you use to guide the model in a given interaction.</p>
+
+<p>**Workflow:** the repeatable process the agent helps with.</p>
+
+<p>**Memory:** saved context that helps future work.</p>
+
+<p>**Tool:** an external capability such as web search, file access, or messaging.</p>
+
+<p>**Trigger:** the event that starts the workflow.</p>
+
+<p>**Guardrail:** a rule or boundary that limits risky behaviour.</p>
+
+<p>**Approval boundary:** a point where a human must confirm before an action happens.</p>
+
+<hr>
+
+<h2>Final Note</h2>
+
+<p>You do not need to become an AI engineer to benefit from this shift.</p>
+
+<p>You do need to stop treating AI as a novelty.</p>
+
+<p>Give it a job.</p>
+<p>Give it structure.</p>
+<p>Give it boundaries.</p>
+<p>Then make it useful.</p>
+</body></html>
