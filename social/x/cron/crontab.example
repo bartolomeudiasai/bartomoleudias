@@ -1,0 +1,11 @@
+# Bartolomeu X automation example cron
+# Adjust paths if the workspace moves.
+
+# 08:00 daily — draft one post candidate
+0 8 * * * cd /Users/bartolomeudias/.openclaw/workspace && /opt/homebrew/opt/node/bin/node social/x/scripts/draft-post.js >> social/x/logs/cron.log 2>&1
+
+# 13:00 daily — mentions check (currently likely to fail with X API tier limits)
+0 13 * * * cd /Users/bartolomeudias/.openclaw/workspace && /opt/homebrew/opt/node/bin/node social/x/scripts/check-mentions.js >> social/x/logs/cron.log 2>&1
+
+# 18:00 daily — optional post execution only after approval policy changes
+# 0 18 * * * cd /Users/bartolomeudias/.openclaw/workspace && /opt/homebrew/opt/node/bin/node social/x/scripts/post-approved.js >> social/x/logs/cron.log 2>&1
